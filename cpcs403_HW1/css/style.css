@@ -1,0 +1,148 @@
+/*
+Name: abdullah alhowaish
+ID: 2236013
+Section: cs1
+Date: 2025-10-06
+*/
+
+
+/* ========== Base ========== */
+
+html, body { margin: 0; padding: 0; }
+
+body {
+  font-family: "Times New Roman", Georgia, serif; 
+  color: #141414;                                 
+  background-color: #fafafa;                      
+  line-height: 1.8;                          
+  font-size: 24px;                               
+}
+
+/* ========== Headings and Paragraphs ========== */
+/* Set color, size, and spacing for titles and text */
+h1 { color: #0066cc; margin: 18px; font-size: 40px; }  
+h2 { color: #0066cc; margin: 16px; font-size: 32px; } 
+h3 { margin: 14px 16px; font-size: 22px; }            
+p  { margin: 12px 16px; text-align: justify; }        
+
+/* ========== Text Styles ========== */
+/* for underlining, italic, or bold text */
+.u { text-decoration: underline; }
+.i { font-style: italic; }
+.b { font-weight: bold; }
+.highlight { font-weight: bold; }
+
+/* ========== Links ========== */
+/* Set link colors and behavior when hovered or clicked */
+a:link    { color: #0066cc; text-decoration: underline; }
+a:visited { color: #5000a0; }
+a:hover   { text-decoration: none; }
+a:active  { color: #c00000; }
+
+/* ========== Boxes ========== */
+/* Give all <div> areas a white background and border */
+div {
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  padding: 12px;
+  margin: 16px;
+}
+
+/* ========== Lists ========== */
+/* Add space for list items */
+ul, ol { margin: 12px 32px; }
+li { margin: 4px 0; }
+
+/* ========== Footer ========== */
+/* Center the footer text at the bottom of the page */
+.page-footer { text-align: center; color: #666666; padding: 12px; }
+
+/* ========== Home Page ========== */
+/* Move image to the right and make it large */
+.img-wrap-right { float: right; margin: 0 0 20px 48px; }
+#home-hero img { display: block; width: 350px; }
+.introText { font-size: 28px; }  /* slightly bigger text */
+
+/* ========== Buttons and Navigation Links ========== */
+/* Style the links */
+.btn, .nav-links a {
+  display: inline-block;
+  background-color: #0066cc;
+  color: #ffffff;
+  border: 1px solid #0066cc;
+  padding: 10px 16px;
+  text-decoration: none;
+  margin: 8px;
+  font-size: large;
+}
+
+/* When mouse is on a button, change color */
+.btn:hover, .nav-links a:hover { background-color: #004c99; }
+
+/* Center all the buttons on the page */
+.nav-links { text-align: center; margin: 20px 0; }
+
+.nav-links button {
+  background-color: #0066cc;
+  border: 1px solid #0066cc;
+  padding: 10px 16px;
+  margin: 8px;
+}
+
+/* Make button text white and remove underline */
+.nav-links button a { color: #ffffff; text-decoration: none; }
+
+/* ========== CV Page ========== */
+/* Style parts of the CV  */
+#cv-header .name { margin-bottom: 6px; }
+#cv-header .subtitle { margin-top: 0; color: #333333; }
+#cv-header .contact { margin: 8px 16px; }
+.subheading { margin: 10px 16px; }
+.item { margin: 12px 16px; }
+.item-head { margin-bottom: 6px; }
+.meta { color: #555555; }
+
+/* ========== Contact Page ========== */
+.contact { display: block; margin: 8px 16px; }
+.contact img { width: 22px; height: auto; vertical-align: middle; margin-left: 8px; }
+
+/* ========== Projects Page ========== */
+/* Make image and text appear side by side */
+.project {
+  border: 1px solid #000;
+  padding: 10px;
+  margin: 16px;
+  background-color: #fff;
+  white-space: nowrap;   /* keep image and text on same line */
+ 
+}
+
+/* Set image size and border */
+.project img {
+  display: inline-block;
+  vertical-align: top;   /* keep image top-align */
+  width: 300px;
+  height: auto;
+  margin: 10px;
+  border: 1px solid #ccc;
+  padding: 4px;
+}
+
+/* Text next to image */
+.project .text {
+  display: inline-block;
+  vertical-align: top;
+  width: 60%;            /* text takes 60% of space */
+  margin: 10px;
+  white-space: normal;   /* allow wrapping inside text */
+  text-align: justify;   
+}
+
+#lastImage {
+  display: inline-block;
+  vertical-align: top;
+  width: 40%;
+  margin: 10px;
+  white-space: normal;   /* allow wrapping inside text */
+  text-align: justify;
+}
